@@ -9,7 +9,7 @@
 ### 自适应插件配置
 
 
-##### 1.配置px2rem-loader
+##### 1. 配置px2rem-loader
 
   修改build/utils.js  
 
@@ -53,7 +53,7 @@
     }
   }
 ```
-##### 6.修改flexible.js
+##### 2. 修改flexible.js
 
 ```javascript
 //找到node_modules文件夹中的flexible.js文件
@@ -70,7 +70,7 @@ function refreshRem(){
   }
 ```
 
-##### 7.px2rem-loader使用
+##### 3. px2rem-loader使用
 
 ```javascript
 //直接写px，编译后会直接转化成rem ---- 除开下面两种情况，其他长度用这个
